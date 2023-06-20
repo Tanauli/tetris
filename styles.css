@@ -1,0 +1,26 @@
+.tetris {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.game-board {
+  border: 2px solid #333;
+  width: 240px;
+  height: 480px;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.tetromino {
+  width: 23px;
+  height: 23px;
+  border: 1px solid #333;
+  background-color: #ccc;
+  position: absolute;
+}
